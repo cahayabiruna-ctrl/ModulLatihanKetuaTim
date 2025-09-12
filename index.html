@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Modul Training DVTEAM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #111;
+      font-family: 'Segoe UI', sans-serif;
+      color: #eee;
+      overflow: hidden;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      padding: 6vw 5vw 4vw 5vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      background: transparent;
+      transition: opacity 0.6s;
+      z-index: 1;
+      position: relative;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 8px;
+      text-align: center;
+      background: rgba(0,0,0,0.6);
+      font-size: clamp(14px, 3vw, 20px);
+      color: #ffd700;
+      z-index: 1000;
+    }
+
+    .content-box {
+      background: rgba(0,0,0,0.6);
+      border-radius: 16px;
+      padding: 20px;
+      max-width: 90%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    }
+    .content-box::-webkit-scrollbar { width: 6px; }
+    .content-box::-webkit-scrollbar-thumb { background: #00e0ff; border-radius: 3px; }
+
+    h1 { font-size: clamp(28px, 6vw, 56px); margin-bottom: 1em; text-align: center; }
+    h2 { font-size: clamp(24px, 5vw, 44px); margin-bottom: 0.5em; color: #ffd700; text-align: center; }
+    h3 { font-size: clamp(20px, 4.5vw, 36px); margin-bottom: 0.8em; text-align: center; }
+    p, li { font-size: clamp(18px, 3.5vw, 28px); line-height: 1.6; margin-bottom: 0.5em; }
+
+    ul, ol { width: 100%; padding-left: 1.2em; }
+    ul li, ol li { margin-bottom: 0.5em; }
+    ul li::marker { color: #00e0ff; }
+    ol li::marker { color: #ffd700; font-weight: bold; }
+
+    blockquote {
+      border-left: 4px solid #00e0ff;
+      padding-left: 12px;
+      margin: 1em 0;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .hidden { display: none; }
+
+    /* Daun berguguran */
+    .leaf {
+      position: fixed;
+      top: -50px;
+      font-size: 18px;
+      color: #4caf50;
+      animation: fall linear infinite;
+      opacity: 0.8;
+      z-index: 0;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(-50px) translateX(0) rotate(0deg); opacity: 1; }
+      50% { transform: translateY(50vh) translateX(40px) rotate(90deg); opacity: 0.9; }
+      100% { transform: translateY(100vh) translateX(-40px) rotate(180deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>✨ Dipersembahkan oleh DV-Team Naga Persada ✨</header>
+
+<!-- SLIDE 1 -->
+<div class="slide" id="s1"><div class="content-box">
+  <h1>📚 Modul Training DVTEAM</h1>
+  <h3>🚀 Langkah-Langkah Membangun Komunitas di OPALP Bersama DV-Team NP</h3>
+</div></div>
+
+<!-- SLIDE 2 -->
+<div class="slide hidden" id="s2"><div class="content-box">
+  <h2>1. 💡 Mindset & Visi Bersama DVTEAM NP</h2>
+  <p>🔹 Mengubah cara pandang: DVTEAM bukan sekadar platform trading modern, tapi sarana untuk membangun masa depan finansial yang lebih aman.</p>
+  <p>🤝 Anggota DVTEAM adalah partner bisnis, bukan pesaing.</p>
+  <p>🌟 Visi: “Membantu sebanyak mungkin orang melek finansial, mandiri, dan punya penghasilan tambahan dari trading modern.”</p>
+  <p>📈 Fokus awal: bukan langsung hasil besar, tapi aktivitas konsisten → hasil akan mengikuti.</p>
+</div></div>
+
+<!-- SLIDE 3 -->
+<div class="slide hidden" id="s3"><div class="content-box">
+  <h2>2. 📝 Membuat Daftar Nama (List Building)</h2>
+  <p>🎯 Tujuan: punya “bahan bakar” untuk mengundangan.</p>
+  <p>🗂️ Minimal tulis 100 nama (teman, keluarga, rekan kerja, kenalan online).</p>
+  <p>📌 Bedakan kategori:</p>
+  <ol>
+    <li>✅ A → orang yang dekat & mudah diajak bicara.</li>
+    <li>🙂 B → kenalan biasa, butuh pendekatan dulu.</li>
+    <li>🌐 C → orang yang jarang kontak, bisa dihubungi lewat media sosial.</li>
+  </ol>
+  <p>📊 DVTEAM NP menyediakan tabel monitoring untuk mencatat siapa yang sudah diundang, hadir, dan follow up.</p>
+</div></div>
+
+<!-- SLIDE 4 -->
+<div class="slide hidden" id="s4"><div class="content-box">
+  <h2>3. 📞 Teknik Mengundang ala DVTEAM NP</h2>
+  <p>✨ Prinsip emas undangan:</p>
+  <ul>
+    <li>📍 Singkat, jelas, bikin penasaran.</li>
+    <li>🚫 Jangan jelaskan detail via chat/WA → cukup ajak hadir.</li>
+    <li>💵 Gunakan bahasa sesuai kondisi nyata: banyak orang cari tambahan income karena kebutuhan hidup makin naik.</li>
+  </ul>
+</div></div>
+
+<!-- SLIDE 5 -->
+<div class="slide hidden" id="s5"><div class="content-box">
+  <h2>3. 📞 Teknik Mengundang (lanjutan)</h2>
+  <p>📢 Contoh undangan sederhana:</p>
+  <blockquote>“Bro, ada sharing singkat dari DVTEAM tentang cara menghasilkan income tambahan lewat platform trading modern. Nggak lama kok, sekitar 30 menit. Mau saya daftarin?”</blockquote>
+  <p>🔄 DVTEAM mengajarkan <b>“Undang – Hubungkan – Lepas”</b>: kita hanya mengundang, lalu hubungkan ke Ketua Tim, biarkan Ketua Tim yang menjelaskan.</p>
+</div></div>
+
+<!-- SLIDE 6 -->
+<div class="slide hidden" id="s6"><div class="content-box">
+  <h2>4. 🎤 Presentasi Sistem DVTEAM NP</h2>
+  <p>📋 Alur presentasi:</p>
+  <ol>
+    <li>👋 Perkenalan singkat DVTEAM.</li>
+    <li>🔒 Perkenalkan platform trading modern (legal, aman, mudah dipelajari).</li>
+    <li>👨‍🏫 Jelaskan sistem support DVTEAM NP (training, mentoring, komunitas).</li>
+    <li>🌟 Sharing kisah sukses nyata dari anggota.</li>
+    <li>🤝 Ajakan untuk ikut bergabung.</li>
+  </ol>
+</div></div>
+
+<!-- SLIDE 7 -->
+<div class="slide hidden" id="s7"><div class="content-box">
+  <h2>4. 🎤 Presentasi Sistem (lanjutan)</h2>
+  <p>👥 Tugas anggota: membawa prospek ke presentasi, bukan menjelaskan detail.</p>
+  <p>📌 Presentasi bisa lewat:</p>
+  <ul>
+    <li>💻 Zoom (online)</li>
+    <li>🏠 Gathering kecil (offline)</li>
+    <li>🤝 Sesi mentoring 1-on-1</li>
+  </ul>
+</div></div>
+
+<!-- SLIDE 8 -->
+<div class="slide hidden" id="s8"><div class="content-box">
+  <h2>5. 🔔 Follow Up & Closing</h2>
+  <p>⏱️ Timing penting: lakukan follow up maksimal 24 jam setelah prospek ikut presentasi.</p>
+  <p>📖 Teknik DVTEAM → <b>3S (Sapa – Sharing – Solusi)</b>:</p>
+  <ol>
+    <li>🤗 <b>Sapa:</b> tanyakan kesan prospek → “Bagian mana yang menarik buat kamu?”</li>
+    <li>💬 <b>Sharing:</b> ceritakan pengalaman pribadi/anggota lain.</li>
+    <li>🎯 <b>Solusi:</b> tawarkan untuk ikut belajar langsung dengan DVTEAM.</li>
+  </ol>
+</div></div>
+
+<!-- SLIDE 9 -->
+<div class="slide hidden" id="s9"><div class="content-box">
+  <h2>5. 🔔 Follow Up (lanjutan)</h2>
+  <p>🙅 Jika belum siap bergabung → jangan putus kontak. Tetap jalin hubungan.</p>
+</div></div>
+
+<!-- SLIDE 10 -->
+<div class="slide hidden" id="s10"><div class="content-box">
+  <h2>6. 🌱 Membina & Melatih Anggota Baru</h2>
+  <p>👨‍👩‍👧 Setelah ada anggota baru masuk, jangan dibiarkan sendiri.</p>
+  <p>📋 Langkah pembinaan awal DVTEAM:</p>
+  <ol>
+    <li>📝 Bantu anggota baru membuat daftar nama.</li>
+    <li>🎭 Latih teknik mengundang (roleplay bersama mentor).</li>
+    <li>🎓 Ajak mereka ikut presentasi & training DVTEAM.</li>
+  </ol>
+  <p>🌟 Ingat: keberhasilan anggota baru = keberhasilan tim.</p>
+</div></div>
+
+<!-- SLIDE 11 -->
+<div class="slide hidden" id="s11"><div class="content-box">
+  <h2>7. 🔄 Duplikasi Sistem DVTEAM</h2>
+  <p>📌 Kunci sukses: <b>duplikasi</b>, bukan kehebatan individu.</p>
+  <p>📝 Semua anggota baru harus bisa mengulang pola:</p>
+  <p>Daftar Nama → Undang → Presentasi → Follow Up → Duplikasi.</p>
+  <p>⚠️ Hindari cara yang rumit atau sulit ditiru.</p>
+  <p>💡 Prinsip DVTEAM: “Kalau tidak bisa diulang oleh anggota baru, jangan lakukan.”</p>
+</div></div>
+
+<!-- SLIDE 12 -->
+<div class="slide hidden" id="s12"><div class="content-box">
+  <h2>8. 🌈 Bangun Budaya Positif DVTEAM</h2>
+  <ul>
+    <li>🙌 Budaya support: saling mendorong, bukan menjatuhkan.</li>
+    <li>🤝 Ketua Tim aktif: KT wajib mendampingi anggota baru sampai bisa mandiri.</li>
+    <li>🎉 Apresiasi pencapaian: sekecil apapun, rayakan (misalnya anggota pertama kali berhasil mengundang 5 orang).</li>
+  </ul>
+  <p>🌟 Budaya positif inilah yang membuat DVTEAM berbeda dengan komunitas lain.</p>
+</div></div>
+
+<!-- SLIDE 13 -->
+<div class="slide hidden" id="s13"><div class="content-box">
+  <h2>9. 📊 Monitoring & Konsistensi</h2>
+  <ul>
+    <li>📅 Target minimum anggota DVTEAM: 1 undangan per hari.</li>
+    <li>📲 Gunakan grup WhatsApp/Telegram untuk laporan aktivitas.</li>
+    <li>👨‍🏫 Mentor akan memberikan feedback jika ada hambatan.</li>
+  </ul>
+  <p>🎯 Fokus bukan pada “siapa yang langsung join”, tapi aktivitas rutin → yang akhirnya menghasilkan pertumbuhan.</p>
+</div></div>
+
+<!-- SLIDE 14 -->
+<div class="slide hidden" id="s14"><div class="content-box">
+  <h2>10. 🏆 Misi & Identitas DVTEAM</h2>
+  <p>DVTEAM hadir bukan hanya untuk memperkenalkan platform trading modern, tapi untuk:</p>
+  <ul>
+    <li>💪 Membangun karakter & mentalitas sukses.</li>
+    <li>🎤 Melatih keterampilan komunikasi & kepemimpinan.</li>
+    <li>🏦 Menciptakan komunitas finansial yang kuat & solid.</li>
+  </ul>
+</div></div>
+
+<!-- SLIDE 15 -->
+<div class="slide hidden" id="s15"><div class="content-box">
+  <h2>10. 🏆 Misi & Identitas (lanjutan)</h2>
+  <p>📜 Moto: “Kita tidak hanya bangun komunitas, tapi bangun manusia.”</p>
+  <p>✨ Ringkasan:<br>
+  ➡ Jalankan 5 langkah dasar DVTEAM: 📝 Daftar Nama – 📞 Undang – 🎤 Presentasi – 🔔 Follow Up – 🔄 Duplikasi.<br>
+  ➡ Terapkan budaya & sistem DVTEAM → hasilnya: anggota baru berkembang, tim tumbuh sehat, dan visi bersama tercapai.</p>
+</div></div>
+
+<script>
+  let current = 1;
+  const total = document.querySelectorAll('.slide').length;
+  let firstClick = true;
+
+  document.addEventListener("click", () => {
+    if (firstClick) {
+      firstClick = false;
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen().catch(()=>{});
+      }
+      return;
+    }
+    document.getElementById("s" + current).classList.add("hidden");
+    current++;
+    if (current > total) current = 1;
+    document.getElementById("s" + current).classList.remove("hidden");
+  });
+
+  // Daun berguguran
+  function createLeaf() {
+    const leaf = document.createElement("div");
+    leaf.classList.add("leaf");
+    leaf.innerHTML = "🍃";
+    leaf.style.left = Math.random() * window.innerWidth + "px";
+    leaf.style.animationDuration = (5 + Math.random() * 5) + "s";
+    document.body.appendChild(leaf);
+    setTimeout(() => leaf.remove(), 10000);
+  }
+  setInterval(createLeaf, 700);
+</script>
+
+</body>
+</html>
